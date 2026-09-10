@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "question": "What's this you ask?",
+      "answer": "What's this you ask?",
+      "readDelaySeconds": 0.05
+    },
+    {
+      "question": "a super ultra amazing hangout celebration for marc and arajil!!?",
+      "answer": "a super ultra amazing hangout celebration for marc and arajil!!",
+      "readDelaySeconds": 1.0
+    },
+    {
+      "question": "why so late?",
+      "answer": "why so late?",
+      "readDelaySeconds": 1.0
+    },
+    {
+      "question": "Cause its the super ultra amazing hangout celebration for marc and arajil!!",
+      "answer": "cause its the a super ultra amazing hangout celebration for marc and arajil!!",
+      "readDelaySeconds": 1.2
+    },
+    {
+      "question": "How can i stay updated?",
+      "answer": "How can i stay updated? ",
+      "readDelaySeconds": 1.0
+    },
+    {
+      "question": "send your name, birthday, and contact details to arenosallysha@gmail.com",
+      "answer": "send your name, birthday, and contact details to arenosallysha@gmail.com ",
+      "readDelaySeconds": 1.0
+    }
+  ],
+  "partyInfo": {
+    "title": "You're Invited!",
+    "name": "marc and arajil special event",
+    "date": "September 26, 2026",
+    "time": "10AM onwards",
+    "location": "somewhere in Phillipines",
+    "rsvp": "RSVP before the event to arenosallysha@gmail.com"
+  }
+}
