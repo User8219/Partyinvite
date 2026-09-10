@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Invitation Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hidden Easter Egg Trigger (Top Left Corner) -->
+  <button id="img-btn-left" class="easter-egg-btn top-left" aria-label="Secret Left Gallery"></button>
+
+  <!-- Hidden Easter Egg Trigger (Top Right Corner) -->
+  <button id="img-btn-right" class="easter-egg-btn top-right" aria-label="Secret Right Gallery"></button>
+
+  <!-- Confetti Container -->
+  <div id="confetti-container"></div>
+
+  <!-- Envelope Container -->
+  <div class="container">
+    <div id="question-banner" class="question-banner">Loading...</div>
+    
+    <div id="envelope" class="envelope-wrapper">
+      <div class="paper">
+        <div id="paper-text"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shared Modal Popup -->
+  <div id="image-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button id="close-modal" class="close-btn">&times;</button>
+      <img id="modal-img" src="test.jpg" alt="test.jpg">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
