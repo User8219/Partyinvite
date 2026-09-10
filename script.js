@@ -109,15 +109,15 @@ envelope.addEventListener('click', handleEnvelopeTap);
 
 // Top Right Easter Egg Hotspot (test.img)
 imgBtnRight.addEventListener('click', () => {
-  modalImg.src = 'test.jpg';
-  modalImg.alt = 'test.jpg';
+  modalImg.src = 'test.jpeg';
+  modalImg.alt = 'test.jpeg';
   imageModal.classList.add('active');
 });
 
 // Top Left Easter Egg Hotspot (test2.img)
 imgBtnLeft.addEventListener('click', () => {
-  modalImg.src = 'test2.jpg';
-  modalImg.alt = 'test2.jpg';
+  modalImg.src = 'test2.jpeg';
+  modalImg.alt = 'test2.jpeg';
   imageModal.classList.add('active');
 });
 
